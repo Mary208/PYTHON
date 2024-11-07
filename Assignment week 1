@@ -1,0 +1,15 @@
+Write a program that asks the user for their name, age, and location and then prints out a personalized message.
+
+name = input("Your Name: ")
+age = input("Your Age: ")
+location = input("Your Location: ")
+
+print("Hi ", name, "We have noticed that you are ", age, "years old", "and you are from", location)
+
+Terminal Output
+PS C:\Users\user\Desktop\Python> py index.py
+Your Name: syombua
+Your Age: 22
+Your Location: nairobi
+Hi  syombua We have noticed that you are  22 years old and you are from nairobi
+PS C:\Users\user\Desktop\Python> 
